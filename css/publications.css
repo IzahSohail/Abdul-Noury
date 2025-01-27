@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Reddit_Mono';
+    src: url("/fonts/Reddit_Mono/RedditMono-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: 'Work_Sans';
+    src: url("/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+
+.publications {
+
+    margin: 0 auto;
+    font-family: 'Work_Sans', sans-serif;
+}
+
+.publications h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Reddit_Mono', monospace;
+}
+
+.publications p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.publications ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.publications ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.publications ul li i {
+    font-style: italic;
+}

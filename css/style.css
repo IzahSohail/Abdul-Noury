@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Reddit_Mono';
+    src: url("/fonts/Reddit_Mono/RedditMono-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: 'Work_Sans';
+    src: url("/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.main-content{
+    padding-top: 50px;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.navbar{
+    padding: 20px;
+    font-family: "Work_Sans", sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: 'Reddit_Mono', monospace;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #e05f34;
+    
+}
+
+.description h2{
+    font-family: 'Reddit_Mono', monospace;
+    font-size: 2rem;
+
+}
+
+.description p{
+    font-family: 'Work_Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.img-fluid {
+    border-radius: 50%;
+    max-width: 80%;
+    padding: 20px;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+    margin: 2rem 0;
+}
+
+a {
+    color: black;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: "Reddit_Mono", monospace;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 1px solid #e5e5e5;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .row.no-gutters {
+        flex-direction: column;
+        align-items: center;
+    }
+    .description {
+        padding: 20px;
+    }
+
+    .col-md-4 {
+        order: 1;
+    }
+
+    .img-fluid {
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        padding:0px;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        /* CENTER align text */
+        text-align: center;
+
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+}
